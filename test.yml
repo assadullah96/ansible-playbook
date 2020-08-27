@@ -6,6 +6,6 @@
   tasks:
     - name: Stop virtual machine
       azure_rm_virtualmachine:
-        resource_group: testing
-        name: testing
+        resource_group: demo-rg
+        name: manageiq-test
         allocated: no
